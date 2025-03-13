@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: rgb(120, 180, 150);
+    margin: 10px;
+    color:rgb(255, 255, 255);
+    padding: 15px;
+}
+.cajita1{
+    border-width:thin;
+    border-style: dotted;
+    border-color:rgb(36, 82, 20) rgb(76, 201, 172);
+}
+.cajita2{
+    border-width:medium;
+    border-style: dotted;
+    border-color:rgb(93, 218, 26) rgb(60, 6, 195) rgb(119, 227, 31);
+}
+.cajita3{
+    border-width:thick;
+    border-style: dotted;
+    border-color:rgb(196, 214, 255) rgb(145, 203, 57) rgb(104, 209, 24) rgb(128, 90, 0);
+}
+.cajita4{
+    border: thin dotted rgb(22, 168, 136);
+}
+.cajita5{
+    border: 10px hidden rgb(42, 164, 26);
+}
+.cajita6{
+    border: 10px dotted rgb(234, 75, 149);
+}
+.cajita7{
+    border: 10px dashed rgb(34, 251, 26);
+}
+.cajita8{
+    border: 10px solid rgb(33, 152, 150);
+}.cajita9{
+    border: 10px double rgb(24, 23, 121);
+}
+.cajita10{
+    border: 10px groove rgb(39, 140, 199);
+}
+.cajita11{
+    border: 10px ridge rgb(194, 194, 12);
+}
+.cajita12{
+    border: 10px inset rgb(10, 58, 7);
+}
+.cajita13{
+    border: 10px outset rgb(169, 36, 247);
+}
+.cajita14{
+    border-top: 10px dashed rgb(36, 247, 191);
+    border-bottom: 10px double rgb(8, 124, 46);
+    border-left: 10px solid rgb(85, 123, 19);
+    border-right: 10px dotted rgb(193, 95, 26);
+}
+
+.cajita15{
+    font-family: Jost, sans-serif;
+    font-size: 1rem;
+  
+    padding: 1rem 2rem;
+    background: none;
+    color: #089108;
+  
+    border-image-source: linear-gradient(rgb(74, 117, 79), rgb(148, 174, 231), rgb(6, 42, 30));
+    border-image-slice: 1 1 1 1;
+    border-image-width:0.25rem;
+}
+
+.cajita16 {
+    --timing: linear(0, 0.3, 0.75, 1);
+  
+    font-family: Jost, sans-serif;
+    font-size: 0.5rem;
+  
+    padding: 1rem 2rem;
+    background: none;
+    color: #4c5361;
+  
+    border-image-source: conic-gradient(from var(--a), rgb(210, 38, 38), rgb(78, 108, 18), rgb(74, 83, 147));
+    border-image-slice: 1 1 1 1;
+    border-image-width: 0.25rem;
+  
+    animation: move 1s infinite var(--timing);
+  
+  
+  }
+  @keyframes move {
+    from { --a: 0deg; }
+    to { --a: 360deg; }
+  }
+  
+  @property --a {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value:0deg;
+  }

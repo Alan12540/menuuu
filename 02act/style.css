@@ -19,41 +19,43 @@ div{
 
 }
 
+
+.c1{
+
+    width: 400px;
+    height: 400px;
+    background: rgb(121, 255, 190);
+    margin: 300PX auto;
+    
+    padding: 20px;
+    border: 10px solid rgb(135, 49, 49);
+
+}
+
 .c2{
 
-    width: 200px;
-    height: 200px;
-    background: rgb(12, 70, 42);
+    width: 600px;
+    height: 600px;
+    background: rgb(87, 231, 25);
     margin: 200PX auto;
     
     padding: 20px;
-    border: 10px solid rgb(212, 127, 127);
+    border: 10px solid #cc349c;
 
 }
 
 .c3{
 
-    width: 150px;
-    height: 150px;
-    background: rgba(238, 10, 10, 0.537);
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 218, 218, 0.537);
     margin: 10PX auto;
     
     padding: 30px;
-    border: 20px solid rgb(7, 83, 31);
+    border: 20px solid rgb(89, 179, 117);
 
 }
 
-.c3{
-
-    width: 150px;
-    height: 150px;
-    background: rgba(96, 88, 12, 0.481);
-    margin: 10PX auto;
-    
-    padding: 30px;
-    border: 20px solid rgb(45, 255, 26);
-
-}
 
 .c4{
 

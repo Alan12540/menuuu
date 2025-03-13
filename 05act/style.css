@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+span{
+    font-family: "Arial";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.a{
+    
+    font-family: "Arial black";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.b{
+    
+    font-family: "Calibri";
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: 300;
+}
+
+.c{
+    
+    font-family: "Times New Roman";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.d{
+    
+    font-family: "Comic Sans MS";
+    font-size: 10px;
+    font-style: inherit;
+    font-weight: 100;
+}
+
+.d1{
+
+    text-decoration: 2px solid overline rgb(21, 21, 184);
+}
+
+.d2{
+
+    text-decoration: 2px solid underline red
+}
+
+.d3{
+
+    text-decoration: 2px solid line-through rgb(161, 66, 188)
+}
+
+.texto{
+    text-shadow: 0 0 5px ;
+}
+
+.f{
+
+color: rgb(216, 181, 181);
+    letter-spacing: 20px;
+    text-align: justify;
+}
+
+.g{
+    color: rgb(50, 171, 115);
+line-height: 150px
+
+
+} 
+
+.gg{
+
+    color: rgb(128, 24, 79);
+    line-height: 10px
+    
+   
+   } 
+   
+
+.h{
+    color: rgb(204, 177, 45);
+    text-indent: 90px;
+}
+
+
+.j{
+    color: rgb(159, 212, 72);
+word-spacing: 100px;
+}
+
+.k{
+white-space: pre-wrap;
+color: rgb(8, 8, 163);
+}
+
+.l{
+    color: rgba(38, 189, 25, 0.558);
+tab-size: 200px;
+}
+
+.m{
+
+  text-align:center;  
+}
