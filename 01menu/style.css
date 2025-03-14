@@ -1,0 +1,65 @@
+*{
+    margin:0;
+padding:0;
+}
+img{
+    width: 100px ;
+    height: 100px;
+    border-radius: 100%;
+    border: rgb(233, 154, 27) dashed 2px ;
+    box-shadow: -10px  -10px 5px rgb(185, 26, 26);
+
+}
+
+img:hover{
+
+
+        width: 100px ;
+        height: 100px;
+        border-radius: 100%;
+        border: rgb(237, 237, 31) dashed 2px ;
+        box-shadow: -10px  -10px 5px rgb(219, 19, 19);
+    transform: rotate(+1500deg) scale(1.5);
+    transition: 20s ease all;
+
+}
+
+img:hover{
+
+
+    width: 100px ;
+    height: 100px;
+    border-radius: 100%;
+    border: rgb(255, 167, 16) dashed 2px ;
+    box-shadow: -10px  -10px 5px rgb(213, 71, 23);
+transform: rotate(-10000deg) scale(1.0);
+transition: 1s ease all;
+
+
+}
+
+img:hover{
+
+
+    width: 100px ;
+    height: 100px;
+    border-radius: 10%;
+    border: rgb(244, 37, 37) dashed 2px ;
+    box-shadow: -10px  -10px 5px rgb(0, 219, 215);
+transform: rotate(500deg) scale(1.5);
+transition: 10s ease all;
+}
+
+img:hover{
+
+
+    width: 100px ;
+    height: 100px;
+    border-radius: 100%;
+    border: rgb(19, 74, 213) dashed 2px ;
+    box-shadow: -10px  -10px 5px rgb(233, 246, 116);
+transform: rotate(-150000deg) scale(1.5);
+transition: 1s ease all;
+
+
+}
