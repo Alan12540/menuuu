@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+height: 100vh;
+background: rgb (2,0,36);
+background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(26,6,150,1) 47%, rgba(0,246,255,1) 100%);
+}
+div{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    background: rgb(120, 180, 150);
+    margin: 10px;
+    color:rgb(255, 255, 255);
+    padding: 15px;
+}
+.sidebar{
+    background:purple;
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
